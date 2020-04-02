@@ -1,0 +1,76 @@
+body {
+    /* overflow: hidden; */
+}
+
+
+/* Landing Styles */
+
+.intro-section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.name-container {
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+}
+
+.name {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.25;
+    font-size: 4vw;
+}
+
+.subhead {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    opacity: 50%;
+}
+
+
+/* About Me Styles */
+
+.about-me-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #3b6978;
+}
+
+.menu-icon {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu-icon>a {
+    color: #cae8d5;
+}
+
+.menu-icon>a:hover {
+    color: #84a9ac;
+}
+
+.nav-links {
+    font-size: 30px;
+    line-height: 2;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #204051;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -9999;
+}
