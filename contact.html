@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./particles/contact-particles.css">
+    <title>Daniel Macias</title>
+</head>
+
+<body>
+
+    <div class="content-wrapper">
+
+
+
+        <!-- Slide Nav -->
+        <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <a href="index.html" class="nav-links">Home</a>
+                <br>
+                <a href="portfolio.html" class="nav-links">Portfolio</a>
+                <br>
+                <a href="contact.html" class="nav-links">Contact Me</a>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- Main About me section -->
+        <div class="main-section">
+
+
+            <!-- Particles Container -->
+            <div id="particles-js"></div>
+
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <a href="#offcanvas-push" uk-toggle><span uk-icon="icon: menu; ratio: 2"></span></span></a>
+            </div>
+
+
+            <div class="contact-me-container">
+                <form>
+                    <fieldset class="uk-fieldset">
+                
+                        <legend class="uk-legend">Contact Me!</legend>
+                
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="Name">
+                        </div>
+                
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="Email">
+                        </div>
+     
+                        <div class="uk-margin">
+                            <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                        </div>
+                
+
+                        <hr>
+                        <div class="contact-icons">
+                            <a href="https://github.com/macias-daniel" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+                            <a href="https://www.linkedin.com/in/daniel-macias-dev/" target="_blank" class="uk-icon-button  uk-margin-small-right" uk-icon="linkedin"></a>
+                            <a href="https://www.instagram.com/d_wb_macias/" target="_blank" class="uk-icon-button" uk-icon="instagram"></a>
+                        </div>
+                        </fieldset>
+                </form>
+            </div>
+
+   
+
+        </div>
+
+    </div>
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js "></script>
+
+
+
+    <!-- particles.js lib -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js "></script>
+    <script src="./particles/particles.js "></script>
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+    <!-- Custom Scripts -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
